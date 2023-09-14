@@ -1,0 +1,38 @@
+.contact-page
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 9vw;
+    flex-wrap: wrap;
+}
+
+.contact-page-img
+{
+    width: 12vw;
+    height: 12vw;
+}
+
+@media (max-width:991px)
+{
+    .contact-page
+    {
+        flex-direction: column;
+    }
+    .contact-page-img
+    {
+        margin-top: 18vh;
+        margin-left: 4vw;
+        width: 22vw;
+        height: 22vw;
+    }
+    .form-input
+    {
+        width: 90vw;
+    }
+    .contact-page
+    {   
+        margin: 0;
+        justify-content: center;
+    }
+}

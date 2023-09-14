@@ -1,0 +1,43 @@
+.nav-container
+{
+   height: 75px;
+   margin: 0;
+   padding: 0;
+   width: 100vw;
+   max-width: 100%;
+   font-size: large;
+}
+
+.nav-div
+{   
+    width: 100vw;
+    max-width: 100%;
+    background-color: #96ba1e;
+    
+}
+.nav-link
+{
+    padding-right: 0;
+}
+.navbar-collapse
+{
+    padding-right: 0;
+}
+
+
+@media (max-width:991px)
+{
+    .nav-container
+    {
+        height: auto;
+    }
+    .navbar-brand
+    {
+        margin-right: 0;
+    }
+    .nav-link > a
+    {
+        padding-right: 20px;
+        margin-right: 20px;
+    }
+}
